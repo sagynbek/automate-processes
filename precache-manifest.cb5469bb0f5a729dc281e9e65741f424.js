@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "84fabc28247824e941d485a674fa1f47",
+    "revision": "f05d796ce99f52eed7924b16d512a78e",
     "url": "/automate-processes/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/automate-processes/static/css/2.f1d36a8f.chunk.css"
   },
   {
-    "revision": "9d0747152867b0361259",
-    "url": "/automate-processes/static/css/main.aaca6f77.chunk.css"
+    "revision": "65850924f9e59021b9ab",
+    "url": "/automate-processes/static/css/main.23f60005.chunk.css"
   },
   {
     "revision": "0e87b9534321ad3f4e5f",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/automate-processes/static/js/2.45ea03d6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9d0747152867b0361259",
-    "url": "/automate-processes/static/js/main.a3a57e34.chunk.js"
+    "revision": "65850924f9e59021b9ab",
+    "url": "/automate-processes/static/js/main.0264c916.chunk.js"
   },
   {
     "revision": "0f3ba22ad71eeca195cb",
