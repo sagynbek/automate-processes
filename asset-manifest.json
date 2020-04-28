@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/automate-processes/static/css/main.d1b05096.chunk.css",
+    "main.js": "/automate-processes/static/js/main.8afc6a58.chunk.js",
+    "main.js.map": "/automate-processes/static/js/main.8afc6a58.chunk.js.map",
+    "runtime-main.js": "/automate-processes/static/js/runtime-main.dcc36e51.js",
+    "runtime-main.js.map": "/automate-processes/static/js/runtime-main.dcc36e51.js.map",
+    "static/js/2.e518caec.chunk.js": "/automate-processes/static/js/2.e518caec.chunk.js",
+    "static/js/2.e518caec.chunk.js.map": "/automate-processes/static/js/2.e518caec.chunk.js.map",
+    "index.html": "/automate-processes/index.html",
+    "precache-manifest.b94d6912a0226476450492c8a2fc2571.js": "/automate-processes/precache-manifest.b94d6912a0226476450492c8a2fc2571.js",
+    "service-worker.js": "/automate-processes/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/automate-processes/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.e518caec.chunk.js.LICENSE.txt": "/automate-processes/static/js/2.e518caec.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/automate-processes/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dcc36e51.js",
+    "static/js/2.e518caec.chunk.js",
+    "static/css/main.d1b05096.chunk.css",
+    "static/js/main.8afc6a58.chunk.js"
+  ]
+}
