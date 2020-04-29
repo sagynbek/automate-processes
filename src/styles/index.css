@@ -27,12 +27,20 @@ code {
   color: white;
 }
 a{
-  color: green;
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
 }
+a:hover{
+  color: rgb(180, 179, 179)
+}
+
 .container {
+  padding: 1em;
   width: 100%;
   height: 100%;
   background: #768093;
+  color: white;
 }
 .left-box, .right-box{
   padding: 1em;
@@ -47,4 +55,44 @@ a{
 .center-action{
   max-width: 250px;
   margin: auto;
+}
+
+ul {
+  text-decoration: none;
+  margin: 0;
+}
+
+.tool-options{
+  /* margin: 1em 2em; */
+  margin-bottom: 1em !important;
+}
+
+.example{
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.tool-options span {
+  clear: both;
+  padding: .25em 1em;
+  margin: 1em 1em;
+  border: solid black 1px;
+  color: rgb(190, 255, 193)
+}
+
+h1, h3 {
+  margin: 0px
+}
+
+#navigation-dropdown{
+  /* float:right; */
+}
+
+.dashboard-list li{
+  margin-bottom: .25em;
+}
+
+.dashboard-list li em{
+  margin-left: 5px;
+  color: #c6c3c3;
 }

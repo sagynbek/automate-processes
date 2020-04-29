@@ -7,7 +7,6 @@ const SENTECE_END_SIGNS = [".", '!', '?'];
 const ChangeParagraphCase = () => {
   const [text, setText] = useState("");
   const [result, setResult] = useState("");
-  const [isCapitalizeEnabled, setIsCapitalizeEnabled] = useState(true);
   const [isCopyToClipboardEnabled, setIsCopyToClipboardEnabled] = useState(true);
   const [isTriggerOnChangeEnabled, setIsTriggerOnChangeEnabled] = useState(true);
 
@@ -43,7 +42,7 @@ const ChangeParagraphCase = () => {
       }
     }
     result = result.trim();
-    result = isCapitalizeEnabled && result ? (result[0].toUpperCase() + result.slice(1)) : result;
+    result = result ? (result[0].toUpperCase() + result.slice(1)) : result;
 
     isCopyToClipboardEnabled && copyToClipboard(result);
 
@@ -52,17 +51,21 @@ const ChangeParagraphCase = () => {
 
   return (
     <div>
-      <div className="">
+      <h1>Fix paragraph cases</h1>
+      <div className="example">
+        <h3>Examples:</h3>
+        <ul>
+          <li>Upper Cased Text => Upper cased text</li>
+          <li>Long Paragraph. With 2 Sentences  => Long paragraph. With 2 senteces</li>
+        </ul>
+      </div>
+      <div className="tool-options">
         <span>
-          <input name="capitalize" type="checkbox" checked={isCapitalizeEnabled} onChange={() => { setIsCapitalizeEnabled(!isCapitalizeEnabled) }} /> Capitalize
+          <input name="clipboard" type="checkbox" checked={isCopyToClipboardEnabled} onChange={() => { setIsCopyToClipboardEnabled(!isCopyToClipboardEnabled) }} /> Copy to clipboard on result change
         </span>
         <span>
-          <input name="clipboard" type="checkbox" checked={isCopyToClipboardEnabled} onChange={() => { setIsCopyToClipboardEnabled(!isCopyToClipboardEnabled) }} /> Copy to clipboard
+          <input name="instant-trigger" type="checkbox" checked={isTriggerOnChangeEnabled} onChange={() => { setIsTriggerOnChangeEnabled(!isTriggerOnChangeEnabled) }} /> Trigger on change
         </span>
-        <span>
-          <input name="instant-trigger" type="checkbox" checked={isTriggerOnChangeEnabled} onChange={() => { setIsTriggerOnChangeEnabled(!isTriggerOnChangeEnabled) }} /> Trigger on chage
-        </span>
-
       </div>
 
       <div className="left-box">

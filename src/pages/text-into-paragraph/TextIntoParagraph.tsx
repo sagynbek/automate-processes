@@ -40,15 +40,24 @@ const TextIntoParagraph = () => {
 
   return (
     <div>
-      <div className="">
+      <h1>Seperate joined words</h1>
+      <div className="example">
+        <h3>Examples:</h3>
+        <ul>
+          <li>camelCasedText => Camel cased text</li>
+          <li>helloWorld! => Hello world!</li>
+        </ul>
+      </div>
+
+      <div className="tool-options">
         <span>
           <input name="capitalize" type="checkbox" checked={isCapitalizeEnabled} onChange={() => { setIsCapitalizeEnabled(!isCapitalizeEnabled) }} /> Capitalize
         </span>
         <span>
-          <input name="clipboard" type="checkbox" checked={isCopyToClipboardEnabled} onChange={() => { setIsCopyToClipboardEnabled(!isCopyToClipboardEnabled) }} /> Copy to clipboard
+          <input name="clipboard" type="checkbox" checked={isCopyToClipboardEnabled} onChange={() => { setIsCopyToClipboardEnabled(!isCopyToClipboardEnabled) }} /> Copy to clipboard on result change
         </span>
         <span>
-          <input name="instant-trigger" type="checkbox" checked={isTriggerOnChangeEnabled} onChange={() => { setIsTriggerOnChangeEnabled(!isTriggerOnChangeEnabled) }} /> Trigger on chage
+          <input name="instant-trigger" type="checkbox" checked={isTriggerOnChangeEnabled} onChange={() => { setIsTriggerOnChangeEnabled(!isTriggerOnChangeEnabled) }} /> Trigger on change
         </span>
 
       </div>
